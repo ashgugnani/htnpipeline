@@ -25,7 +25,7 @@ No server, no build step, no package install.
 
 ## Data scope
 
-- 8 GP practices (HH Collaborative PCN excluded from totals due to a data extract anomaly — denominator of 5,469 against 11 numerator hits across all metrics, almost certainly a coding/extract issue rather than real performance)
+- 8 GP practices 
 - Run date shown in the dashboard header
 - No patient-identifiable data — all figures are aggregate counts
 
@@ -43,15 +43,7 @@ The arrays are ordered alphabetically by practice name. Keep the order consisten
 
 ## Information governance
 
-Practice-level performance data is potentially sensitive even without patient identifiers. Before sharing this dashboard, check with your IG/Caldicott lead whether the audience and hosting route are appropriate.
 
-If the dashboard needs to be visible only to a defined audience:
-
-- Keep this repo **private** (GitHub Pro required for Pages on private repos)
-- Or host on NHS Futures / SharePoint / an internal NHS web host
-- Or anonymise practice names (replace with "Practice A", "Practice B" etc.) before publishing publicly
-
-GitHub Pages on a public repo is visible to anyone with the URL and will be indexed by search engines over time.
 
 ## Structure
 
